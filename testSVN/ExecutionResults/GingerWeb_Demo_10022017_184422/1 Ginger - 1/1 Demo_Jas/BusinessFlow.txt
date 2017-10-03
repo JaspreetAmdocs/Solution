@@ -1,0 +1,1 @@
+{"Seq":1,"GUID":"32641f67-ee0c-4769-935d-d41754026938","Name":"Demo_Jas","Environment":"ENV_1","StartTimeStamp":"2017-10-02T07:44:22.5695998Z","EndTimeStamp":"2017-10-02T07:44:35.3740126Z","Elapsed":12.798999786376953,"RunStatus":"Passed","VariablesBeforeExec":[],"VariablesAfterExec":[],"SolutionVariablesBeforeExec":[],"SolutionVariablesAfterExec":[]}

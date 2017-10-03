@@ -1,0 +1,1 @@
+{"Seq":1,"GUID":"7d7ff028-a535-4e98-ba75-33095b319f28","ActivityName":"Activity 1","StartTimeStamp":"2017-10-02T07:44:26.3705935Z","EndTimeStamp":"2017-10-02T07:44:35.3474418Z","Elapsed":8973,"RunStatus":"Passed","VariablesBeforeExec":[],"VariablesAfterExec":[]}

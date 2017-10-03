@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.5.0.0-->
+<Ginger.Run.RunSetConfig Created="9/13/2017 5:38:23 AM" CreatedBy="JKAUR" Guid="327ac380-2615-490c-af2c-568ecbedb1a1" LastUpdate="9/13/2017 5:38:48 AM" LastUpdateBy="JKAUR" Name="GingerWeb_Demo" ParentGuid="00000000-0000-0000-0000-000000000000" RunModeParallel="True" SendEmail="False" Version="3">
+<GingerRunners>
+<Ginger.Run.GingerRunner Created="9/13/2017 5:38:23 AM" CreatedBy="JKAUR" FilterExecutionByTags="False" Guid="4323511f-de49-47dc-8f5e-5aafcb023edf" LastUpdate="1/1/0001 12:00:00 AM" Name="Ginger - 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall" Selected="False" UseSpecificEnvironment="False" Version="0">
+<ApplicationAgents>
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<Ginger.Run.BusinessFlowRun BusinessFlowGuid="32641f67-ee0c-4769-935d-d41754026938" BusinessFlowIsActive="True" BusinessFlowName="Demo_Jas" Created="9/13/2017 5:38:48 AM" CreatedBy="JKAUR" Guid="640828c9-1f06-4ad1-ac92-5665804a957c" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<BusinessFlowCustomizedRunVariables>
+</BusinessFlowCustomizedRunVariables>
+</Ginger.Run.BusinessFlowRun>
+</BusinessFlowsRunList>
+
+<FilterExecutionTags>
+</FilterExecutionTags>
+</Ginger.Run.GingerRunner>
+</GingerRunners>
+
+<RunSetActions>
+</RunSetActions>
+
+<Tags>
+</Tags>
+</Ginger.Run.RunSetConfig>

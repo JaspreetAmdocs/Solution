@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.5.0.0-->
+<GingerCore.BusinessFlow Active="False" Created="9/13/2017 5:33:52 AM" CreatedBy="JKAUR" Elapsed="17349" EnableActivitiesVariablesDependenciesControl="False" Guid="32641f67-ee0c-4769-935d-d41754026938" LastUpdate="9/25/2017 5:11:30 AM" LastUpdateBy="JKAUR" Name="Demo_Jas" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="13">
+<Activities>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 1" AutomationStatus="Development" Created="9/13/2017 5:33:52 AM" CreatedBy="JKAUR" EnableActionsVariablesDependenciesControl="False" Guid="7d7ff028-a535-4e98-ba75-33095b319f28" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Google" Version="0">
+<Acts>
+<GingerCore.Actions.ActGotoURL Active="True" ConfigOutputDS="False" Created="9/13/2017 5:35:20 AM" CreatedBy="JKAUR" Description="Goto URL Action" EnableRetryMechanism="False" ExternalID="" Guid="559b59ab-d885-49b0-9366-095b826b601c" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="64bc0304-cc1a-4b54-a0ec-41297289a95a" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="9/13/2017 5:35:23 AM" CreatedBy="JKAUR" Guid="7fadbf08-448d-4834-bab9-c963424ceb6e" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="https://www.google.com.au/" Value="https://www.google.com.au/" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGotoURL>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="9/13/2017 5:35:36 AM" CreatedBy="JKAUR" Description="Generic Element" EnableRetryMechanism="False" ExternalID="" GenElementAction="SendKeys" Guid="a5b9c5b6-6951-427f-9efe-2edf8a8adc6a" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="lst-ib" MaxNumberOfRetries="2" ParentGuid="a4627012-b8d6-4162-bda1-b8ca01477a4c" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="0" Yoffset="0">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="9/13/2017 5:35:50 AM" CreatedBy="JKAUR" Guid="0804ab61-fed5-468a-b47c-399d6f588e0e" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Ginger Test" Value="Ginger Test" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="9/13/2017 5:35:36 AM" CreatedBy="JKAUR" Description="Click Button 'btnK'" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="7e5c1fca-34da-42bc-b963-8a5f1dbdacbd" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="btnK" MaxNumberOfRetries="2" ParentGuid="c1348f11-9faa-42eb-8d23-e14eff2c92f2" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="0" Yoffset="0">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="9/13/2017 5:35:50 AM" CreatedBy="JKAUR" Guid="0804ab61-fed5-468a-b47c-399d6f588e0e" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="9/13/2017 5:35:36 AM" CreatedBy="JKAUR" Description="Click LINK Images" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="5ea38f85-4515-4b3f-88ae-2000de6a7a32" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByLinkText" LocateValue="Images" MaxNumberOfRetries="2" ParentGuid="960d2a2f-0aad-49fb-9946-5a41dad37d4f" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="0" Yoffset="0">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="9/13/2017 5:35:50 AM" CreatedBy="JKAUR" Guid="0804ab61-fed5-468a-b47c-399d6f588e0e" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="9/13/2017 5:35:36 AM" CreatedBy="JKAUR" Description="Click LINK News" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="fd099cf3-25dd-4007-9524-6177de83a33d" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByLinkText" LocateValue="News" MaxNumberOfRetries="2" ParentGuid="cb50515e-e38a-4f6a-919e-10bc92750e8f" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="0" Yoffset="0">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="9/13/2017 5:35:50 AM" CreatedBy="JKAUR" Guid="0804ab61-fed5-468a-b47c-399d6f588e0e" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<Tags>
+</Tags>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+</Activities>
+
+<ActivitiesGroups>
+</ActivitiesGroups>
+
+<Tags>
+</Tags>
+
+<TargetApplications>
+<GingerCore.Platforms.TargetApplication AppName="Google" Created="9/13/2017 5:33:55 AM" CreatedBy="JKAUR" Guid="9e4ec6e3-44b3-47ba-bc8d-4b25bfd212cb" LastExecutingAgentName="Google - Agent 1" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</TargetApplications>
+
+<Variables>
+</Variables>
+</GingerCore.BusinessFlow>

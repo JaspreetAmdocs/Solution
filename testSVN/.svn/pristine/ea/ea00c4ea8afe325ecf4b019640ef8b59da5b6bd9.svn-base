@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.5.0.0-->
+<Ginger.Environments.Solution Created="6/7/2016 9:11:40 AM" CreatedBy="subodhsi" Guid="cfe58953-6d58-4efc-ba75-e6e9d3a28316" LastBusinessFlowFileName="C:\Users\subodhsi\Desktop\Ginger TC\GingerTraining\\BusinessFlows\Travel_Auto.Ginger.BusinessFlow.xml" LastUpdate="6/8/2016 3:55:42 PM" LastUpdateBy="subodhsi" Name="GingerTraining" ParentGuid="00000000-0000-0000-0000-000000000000" Version="2">
+  <ApplicationPlatforms>
+    <GingerCore.Platforms.ApplicationPlatform AppName="Google" CoreGUID="00000000-0000-0000-0000-000000000000" Created="6/7/2016 9:22:53 AM" CreatedBy="subodhsi" Guid="5a2c02eb-32ff-45c9-8a59-0d645d1fa50d" GUID="00000000-0000-0000-0000-000000000000" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" Version="0" />
+  </ApplicationPlatforms>
+  <Variables></Variables>
+</Ginger.Environments.Solution>
